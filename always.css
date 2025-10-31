@@ -1,4 +1,5 @@
 /* grid 구조 + 이미지 사이에 여백 없애는 효과 */
+div {max-width:860px; margin:0 auto;}
 
 img {width: 860px;}
 
