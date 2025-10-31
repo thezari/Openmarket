@@ -1,0 +1,76 @@
+/* grid 구조 + 이미지 사이에 여백 없애는 효과 */
+
+img {width: 860px;}
+
+.option-grid {display: grid; grid-template-columns: repeat(2, 1fr);/* 항상 2열 */  max-width: 860px; margin: 0 auto; padding: 0; gap: 0;/* 완전 밀착 */  justify-items: center; overflow: visible;/* 화면을 벗어나지 않도록 */}
+
+.option-grid a {display: block; line-height: 0; position:relative;}
+
+.option-grid img {display: block; max-width:430px; height: auto; border: 0; }
+
+/* 뱃지 기본 형태 (사이즈 및 위치 115*115px) */
+.option-grid a::after {content: ""; position: absolute; top: 20px; right: 15px; width: 115px; height: 115px; background-size: contain; background-repeat: no-repeat; background-position: top right; pointer-events: none;}
+
+/* 각 클래스별로 다른 뱃지 이미지를 적용 */
+.option-grid a.badge01::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge01.png');
+}
+.option-grid a.badge02::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge02.png');
+}
+.option-grid a.badge03::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge03.png');
+}
+.option-grid a.badge04::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge04.png');
+}
+.option-grid a.badge05::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge05.png');
+}
+.option-grid a.badge06::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge06.png');
+}
+.option-grid a.badge07::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge07.png');
+}
+.option-grid a.badge08::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge08.png');
+}
+.option-grid a.badge09::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge09.png');
+}
+.option-grid a.badge10::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge10.png');
+}
+.option-grid a.badge11::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge11.png');
+}
+.option-grid a.badge12::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge12.png');
+}
+.option-grid a.badge13::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge13.png');
+}
+.option-grid a.badge14::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge14.png');
+}
+.option-grid a.badge15::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge15.png');
+}
+.option-grid a.badge16::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge16.png');
+}
+.option-grid a.badge16::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge17.png');
+}
+
+
+/* 모바일(화면 너비 600px 이하)일 때 뱃지 크기 자동 축소 */
+@media screen and (max-width: 600px) {
+  .option-grid a::after {
+	width: 30%; /* 상대 크기로 설정 */
+	height: 30%; /* 비율 유지 */
+	top: 10px;
+	right: 10px;
+  }
+}
