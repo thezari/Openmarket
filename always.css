@@ -80,7 +80,7 @@ img {width: 860px;}
 .option-grid a.badge01_baby::after {
 	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge01_baby.png');
 }
-.option-grid a.badge02_baby::after {
+.option-grid a.badge02-baby::after {
 	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge02_baby.png');
 }
 
@@ -98,4 +98,5 @@ img {width: 860px;}
 	right: 10px;
   }
 }
+
 
