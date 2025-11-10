@@ -77,6 +77,14 @@ img {width: 860px;}
 .option-grid a.badge16::after {
 	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge16.png');
 }
+.option-grid a.badge01_baby::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge01_baby.png');
+}
+.option-grid a.badge02_baby::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge02_baby.png');
+}
+
+
 
 /* 모바일(화면 너비 600px 이하)일 때 뱃지 크기 자동 축소 */
 @media screen and (max-width: 600px) {
@@ -90,3 +98,4 @@ img {width: 860px;}
 	right: 10px;
   }
 }
+
