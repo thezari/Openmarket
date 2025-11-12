@@ -19,7 +19,7 @@ img {width: 860px;}
 /* 옵션 이미지 — 비율 유지하면서 자동 맞춤 */
 .option-grid img {
   width: 100%;      /* 각 칸 꽉 채움 */
-  max-width: 430px; /* 너무 커지지 않게 제한 */
+  max-width: 430px !important; /* 너무 커지지 않게 제한 */
   height: auto;
   border: 0;
   display: block;
@@ -80,11 +80,9 @@ img {width: 860px;}
 .option-grid a.badge01_baby::after {
 	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge01_baby.png');
 }
-.option-grid a.badge02-baby::after {
+.option-grid a.badge02_baby::after {
 	background-image: url('https://ai.esmplus.com/ciq11211/always/Badges/badge02_baby.png');
 }
-
-
 
 /* 모바일(화면 너비 600px 이하)일 때 뱃지 크기 자동 축소 */
 @media screen and (max-width: 600px) {
@@ -98,5 +96,3 @@ img {width: 860px;}
 	right: 10px;
   }
 }
-
-
