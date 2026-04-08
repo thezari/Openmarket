@@ -22,8 +22,8 @@ img {width: 100%;}
   display: block;
 }
 
-/* 뱃지 기본 형태 (사이즈 및 위치 115*115px) */
-.option-grid a::after {content: ""; position: absolute; top: 0px; right: 0px; width: 115px; height: 115px; background-size: contain; background-repeat: no-repeat; background-position: top right; pointer-events: none;}
+/* 뱃지 기본 형태 (사이즈 및 위치 85*85px) */
+.option-grid a::after {content: ""; position: absolute; top: 0px; right: 0px; width: 85px; height: 85px; background-size: contain; background-repeat: no-repeat; background-position: top left; pointer-events: none;}
 
 /* 각 클래스별로 다른 뱃지 이미지를 적용 */
 .option-grid a.number01::after {
