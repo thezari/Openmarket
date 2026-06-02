@@ -284,6 +284,49 @@ img {width: 100%;}
 	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B20.jpg');
 }
 
+.option-grid a.number_B21::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B20.jpg');
+}
+
+.option-grid a.number_B22::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B20.jpg');
+}
+
+.option-grid a.number_B23::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B20.jpg');
+}
+
+.option-grid a.number_B24::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B20.jpg');
+}
+
+.option-grid a.number_B25::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B20.jpg');
+}
+
+.option-grid a.number_B26::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B20.jpg');
+}
+
+.option-grid a.number_B27::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B20.jpg');
+}
+
+.option-grid a.number_B28::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B20.jpg');
+}
+
+
+.option-grid a.number_B29::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B20.jpg');
+}
+
+
+.option-grid a.number_B30::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B20.jpg');
+}
+
+
 
 /* 모바일(화면 너비 600px 이하)일 때 뱃지 크기 자동 축소 */
 @media screen and (max-width: 600px) {
