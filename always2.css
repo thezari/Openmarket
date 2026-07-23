@@ -27,6 +27,9 @@ img {width: 100%;}
 
 /* 각 클래스별로 다른 뱃지 이미지를 적용 */
 .option-grid a.number01::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number00.jpg');
+}
+.option-grid a.number01::after {
 	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number01.jpg');
 }
 .option-grid a.number02::after {
@@ -224,7 +227,9 @@ img {width: 100%;}
 .option-grid a.number50::after {
 	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number50.jpg');
 }
-
+.option-grid a.number_B01::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B00.jpg');
+}
 
 .option-grid a.number_B01::after {
 	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B01.jpg');
