@@ -26,9 +26,17 @@ img {width: 100%;}
 .option-grid a::after {content: ""; position: absolute; top: 0px; left: 0px; width: 85px; height: 85px; background-size: contain; background-repeat: no-repeat; background-position: top left; pointer-events: none;}
 
 /* 각 클래스별로 다른 뱃지 이미지를 적용 */
+.option-grid a.number000::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number000.jpg');
+	
 .option-grid a.number00::after {
 	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number00.jpg');
 }
+
+.option-grid a.number001::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number001.jpg');
+}
+
 .option-grid a.number01::after {
 	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number01.jpg');
 }
@@ -227,10 +235,20 @@ img {width: 100%;}
 .option-grid a.number50::after {
 	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number50.jpg');
 }
+
+
+.option-grid a.number_B000::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B000.jpg');
+}
+
 .option-grid a.number_B00::after {
 	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B00.jpg');
 }
 
+.option-grid a.number_B001::after {
+	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B001.jpg');
+}
+	
 .option-grid a.number_B01::after {
 	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number_B01.jpg');
 }
