@@ -28,7 +28,7 @@ img {width: 100%;}
 /* 각 클래스별로 다른 뱃지 이미지를 적용 */
 .option-grid a.number000::after {
 	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number000.jpg');
-	
+}	
 .option-grid a.number00::after {
 	background-image: url('https://ai.esmplus.com/ciq11211/always/Numberbadge/number00.jpg');
 }
