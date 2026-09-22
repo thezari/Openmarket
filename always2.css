@@ -399,9 +399,9 @@ img {width: 100%;}
 	max-width: 48vw; /* 뷰포트 기준으로 2열에 딱 맞게 */
   }
   .option-grid a::after {
-	width: 30%; /* 상대 크기로 설정 */
-	height: 30%; /* 비율 유지 */
-	top: 10px;
-	left: 10px;
+	width: 20%; /* 상대 크기로 설정 */
+	height: 20%; /* 비율 유지 */
+	top: 0px;
+	left: 0px;
   }
 }
